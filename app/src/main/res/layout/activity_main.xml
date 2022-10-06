@@ -6,12 +6,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@color/moj_morski">
 <!--dp - piksele niezalezne-->
     <TextView
+        android:id="@+id/pytanieTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Pytanie"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="32dp"
         android:textSize="@dimen/Rozmiar_czcionki"/>
 
     <LinearLayout
@@ -24,25 +29,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button"
             android:backgroundTint="@color/black"
-            android:layout_margin="@dimen/button_margin"/>
+            android:layout_margin="@dimen/button_margin"
+            android:onClick="dobraOdpowiedz"/>
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button"
             android:backgroundTint="@color/moj_rozowy"
-            android:layout_margin="@dimen/button_margin"/>
+            android:layout_margin="@dimen/button_margin"
+            android:onClick="dobraOdpowiedz" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button"
+            android:textColor="@color/black"
+            android:onClick="zlaOdpowiedz"
             android:backgroundTint="@color/moj_bialy"
             android:layout_margin="@dimen/button_margin"/>
 
@@ -51,9 +57,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button"
             android:backgroundTint="@color/moj_zielony"
-            android:layout_margin="@dimen/button_margin"/>
+            android:layout_margin="@dimen/button_margin"
+            android:onClick="dobraOdpowiedz"/>
     </LinearLayout>
 
     <LinearLayout
@@ -66,27 +72,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button"
+            android:textColor="@color/black"
             android:backgroundTint="@color/moj_zolty"
-            android:layout_margin="@dimen/button_margin"/>
+            android:layout_margin="@dimen/button_margin"
+            android:onClick="dobraOdpowiedz"/>
 
+<!--onclick to wiocha fest nie uzywac-->
         <Button
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button"
             android:backgroundTint="@color/moj_czerwony"
-            android:layout_margin="@dimen/button_margin"/>
-
+            android:layout_margin="@dimen/button_margin"
+            android:onClick="zlaOdpowiedz"
+        />
         <Button
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button"
-            android:backgroundTint="@color/moj_aqua"
-            android:layout_margin="@dimen/button_margin"/>
+            android:backgroundTint="@color/moj_fioletowy"
+            android:layout_margin="@dimen/button_margin"
+            android:onClick="dobraOdpowiedz"/>
     </LinearLayout>
 
 

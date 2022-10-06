@@ -14,4 +14,6 @@
     <color name="moj_zolty">#CDDC39</color>
     <color name="moj_czerwony">#FF0000</color>
     <color name="moj_aqua">#00BCD4</color>
+    <color name="moj_morski">#00BCD4</color>
+    <color name="moj_fioletowy">#673AB7</color>
 </resources>
