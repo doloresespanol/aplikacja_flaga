@@ -2,4 +2,5 @@
     <string name="app_name">Nowy Projekt</string>
     <string name="Pytanie">Wybierz kolory które nie są we fladze Polski</string>
     <string name="zla_odp">Ten guzik musi zostać</string>
+    <string name="gratulacje">Gratulacje!</string>
 </resources>

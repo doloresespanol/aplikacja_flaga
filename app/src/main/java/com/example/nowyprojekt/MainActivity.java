@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         klikniete++;
         if(klikniete==5){
             TextView pytanieTextView = findViewById(R.id.pytanieTextView);
+            pytanieTextView.setText(R.string.gratulacje);
         }
     }
 }

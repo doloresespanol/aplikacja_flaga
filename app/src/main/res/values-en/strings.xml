@@ -3,4 +3,5 @@
     <string name="app_name">Nowy Projekt</string>
     <string name="Pytanie">Choose colors, which are not in the polish flag</string>
     <string name="zla_odp">This button must stay</string>
+    <string name="gratulacje">Congratulations!</string>
 </resources>
